@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737a93e8-3dec-4f0d-bc67-f366a63282c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,16 +33,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/graphqlapp/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -111,13 +112,13 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -240,7 +241,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608737189390" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../financeservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -256,6 +257,17 @@
   </component>
   <component name="RunManager">
     <configuration name="GraphqlAppApplication" type="Application" factoryName="Application">
+      <envs>
+        <env name="APP_PORT" value="8089" />
+        <env name="DB_NAME" value="db_graphql" />
+        <env name="DB_USER" value="postgres" />
+        <env name="DB_PASSWORD" value="eoD4O4J0wc8JgHrJ" />
+        <env name="DB_PORT" value="5432" />
+        <env name="DB_ROOT_PASSWORD" value="rootpassword" />
+        <env name="DB_DDL_AUTO" value="update" />
+        <env name="DB_INITIALIZATION_MODE" value="never" />
+        <env name="DB_HOST" value="34.121.111.100" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="graphqlapp.GraphqlAppApplication" />
       <module name="springboot.graphql.app" />
       <method v="2">
@@ -280,7 +292,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,13 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -382,6 +387,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
