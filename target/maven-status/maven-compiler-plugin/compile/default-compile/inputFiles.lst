@@ -1,0 +1,7 @@
+/home/suraksha/Desktop/develop/trainerhub/sfg-blog-posts/springboot-graphql-app/src/main/java/graphqlapp/service/datafetcher/AllBooksDataFetcher.java
+/home/suraksha/Desktop/develop/trainerhub/sfg-blog-posts/springboot-graphql-app/src/main/java/graphqlapp/service/GraphQLService.java
+/home/suraksha/Desktop/develop/trainerhub/sfg-blog-posts/springboot-graphql-app/src/main/java/graphqlapp/repository/BookRepository.java
+/home/suraksha/Desktop/develop/trainerhub/sfg-blog-posts/springboot-graphql-app/src/main/java/graphqlapp/service/datafetcher/BookDataFetcher.java
+/home/suraksha/Desktop/develop/trainerhub/sfg-blog-posts/springboot-graphql-app/src/main/java/graphqlapp/GraphqlAppApplication.java
+/home/suraksha/Desktop/develop/trainerhub/sfg-blog-posts/springboot-graphql-app/src/main/java/graphqlapp/model/Book.java
+/home/suraksha/Desktop/develop/trainerhub/sfg-blog-posts/springboot-graphql-app/src/main/java/graphqlapp/controller/BookController.java
