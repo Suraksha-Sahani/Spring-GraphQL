@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.example.spqr.IService.IUserService;
-import com.example.spqr.model.User;
+import com.example.spqr.model.AppUser;
 
 import io.leangen.graphql.annotations.GraphQLArgument;
 import io.leangen.graphql.annotations.GraphQLMutation;
@@ -19,18 +19,18 @@ public class UserResolver {
 	private IUserService userService;
 	
 	@GraphQLMutation(name="createUser")
-	public User createUser(@GraphQLArgument(name="details") User user) {
-		return userService.createUser(user);
+	public AppUser createUser(@GraphQLArgument(name="details") AppUser appUser) {
+		return userService.createUser(appUser);
 	}
 	
 	@GraphQLQuery(name="getAllUser")
-	public List<User> getAllUser() {
+	public List<AppUser> getAllUser() {
 		return userService.getAllUsers();
 	}
 	
 	@GraphQLMutation(name="updateUser")
-	public User updateUser(@GraphQLArgument(name="details") User user) {
-		return userService.updateUser(user);
+	public AppUser updateUser(@GraphQLArgument(name="details") AppUser appUser) {
+		return userService.updateUser(appUser);
 	}
 	
 	@GraphQLMutation(name="deleteUser")
@@ -40,7 +40,7 @@ public class UserResolver {
 	}
 	
 	@GraphQLQuery(name="getUser")
-	public User getUser(@GraphQLArgument(name="userId") String id) {
+	public AppUser getUser(@GraphQLArgument(name="userId") String id) {
 		return userService.getUser(id);
 	}
 	

@@ -2,15 +2,15 @@ package com.example.spqr.IService;
 
 import java.util.List;
 
-import com.example.spqr.model.User;
+import com.example.spqr.model.AppUser;
 
 public interface IUserService {
 	
-	public User createUser(User user);
+	public AppUser createUser(AppUser appUser);
 	public void deleteUser(String id);
-	public User updateUser(User user);
-	public User getUser(String id);
-	public List<User> getAllUsers();
+	public AppUser updateUser(AppUser appUser);
+	public AppUser getUser(String id);
+	public List<AppUser> getAllUsers();
 	
 
 }

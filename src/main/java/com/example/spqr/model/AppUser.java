@@ -5,7 +5,7 @@ import javax.persistence.Id;
 
 
 @Entity
-public class User {
+public class AppUser {
 
 	@Id
 	private String id;
@@ -15,7 +15,7 @@ public class User {
 	private int salary;
 	private String city;
 
-	public User(String name, int age, String gender, int salary, String city,String id) {
+	public AppUser(String name, int age, String gender, int salary, String city, String id) {
 		super();
 		this.name = name;
 		this.age = age;
@@ -25,7 +25,7 @@ public class User {
 		this.id = id;
 	}
 
-	public User() {
+	public AppUser() {
 		super();
 	}
 

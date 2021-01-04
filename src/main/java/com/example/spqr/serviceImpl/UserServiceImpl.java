@@ -2,11 +2,11 @@ package com.example.spqr.serviceImpl;
 
 import java.util.List;
 
+import com.example.spqr.model.AppUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.spqr.IService.IUserService;
-import com.example.spqr.model.User;
 import com.example.spqr.repository.UserRepository;
 
 @Service
@@ -16,8 +16,8 @@ public class UserServiceImpl implements IUserService{
 	private UserRepository userRepository;
 
 	@Override
-	public User createUser(User user) {
-		return userRepository.save(user);
+	public AppUser createUser(AppUser appUser) {
+		return userRepository.save(appUser);
 	}
 
 	@Override
@@ -27,17 +27,17 @@ public class UserServiceImpl implements IUserService{
 	}
 
 	@Override
-	public User updateUser(User user) {
-		return userRepository.save(user);
+	public AppUser updateUser(AppUser appUser) {
+		return userRepository.save(appUser);
 	}
 
 	@Override
-	public User getUser(String id) {
+	public AppUser getUser(String id) {
 		return userRepository.findById(id).get();
 	}
 
 	@Override
-	public List<User> getAllUsers() {
+	public List<AppUser> getAllUsers() {
 		return userRepository.findAll();
 	}
 	
